@@ -1,0 +1,94 @@
+name: health_plus
+description: Health Plus Flutter application
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  url_launcher: ^6.0.20
+  flutter_form_builder: ^7.1.0
+  cached_network_image: ^3.2.0
+  image_picker: ^0.8.4+8
+  auto_size_text: ^3.0.0
+  flutter_native_splash: ^2.0.2
+  device_preview: ^1.0.0
+  timer_count_down: ^2.2.1
+  responsive_framework: ^0.1.7
+  step_progress_indicator: ^1.0.2
+  connectivity: ^3.0.6
+  get_it: ^7.2.0
+
+
+  # graphics
+  cupertino_icons: ^1.0.4
+  flutter_svg: ^1.0.3
+  google_fonts: ^2.2.0
+  dotted_border: ^2.0.0+2
+
+  # storage
+  shared_preferences: ^2.0.13
+  flutter_secure_storage: ^5.0.2
+  path_provider: ^2.0.9
+
+  # state management
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+
+  # localization
+  easy_localization: ^3.0.0
+  easy_localization_loader: ^1.0.0
+
+  # location
+  geolocator: ^8.2.0
+  google_maps_flutter: ^2.1.1
+
+  # firebase
+  firebase_core: ^1.1.0
+  firebase_messaging: ^11.2.6
+  flutter_local_notifications: ^9.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.9.2
+  flutter_lints: ^1.0.0
+
+flutter_icons:
+  image_path: assets/images/icon.png
+  remove_alpha_ios: true
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/i18n/
+    - assets/images/
+
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/Almarai-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Almarai-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Almarai-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Almarai-ExtraBold.ttf
+          weight: 800
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/splash.png
+  android: true
+  ios: true
