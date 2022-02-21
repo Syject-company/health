@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="90" height="89" viewBox="0 0 90 89">
-    <g transform="translate(0.194 -0.403)">
-        <rect width="90" height="89" rx="28" transform="translate(-0.194 0.403)" fill="#7d55c7"
-            opacity="0.1" />
-        <path
-            d="M184.213,171.719l-24.33,24.329a3.74,3.74,0,0,1-5.292,0l-12.165-12.165a3.742,3.742,0,1,1,5.292-5.292l9.518,9.518,21.684-21.683a3.742,3.742,0,1,1,5.292,5.292Zm0,0"
-            transform="translate(-116.559 -136.263)" fill="#7d55c7" />
-    </g>
-</svg>
